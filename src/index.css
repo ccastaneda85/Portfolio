@@ -20,14 +20,14 @@
 
 body{
   font-family: 'Raleway', sans-serif;
-  background-color: #031926;
-  color: #E7E7E7;
+  background-color: #ffffff;
+  color: #323330;
   min-height: 100vh;
 }
 
 b{
   font-weight: 900;
-  color: #9067C6;
+  color: #f0db4f;
 }
 
 /* Scrollbar */
@@ -78,10 +78,11 @@ b{
   height: 70px;
   top: 0;
   transition: all 0.7s;
+  background-color: #f0db4f;
 }
 
 .blur{
-  background-color:#01111a8d;
+  background-color:#f8fafc;
   backdrop-filter: blur( 15px );
   -webkit-backdrop-filter: blur( 20px );
 }
@@ -90,7 +91,7 @@ b{
   font-size: 32px;
   letter-spacing: 2px;
   padding-left: 7%;
-  color: #9067C6;
+  color: #323330;
   display: flex;
   align-items: center;
   text-align: center;
@@ -112,7 +113,7 @@ b{
 }
 
 .NavbarLinks a{
-  color: #c2c1c2;
+  color: #323330;
   display:flex;
   align-items: center;
   justify-content: space-between;
@@ -124,10 +125,10 @@ b{
 }
 
 .NavbarLinks a:hover{
-  color: #ffffff;
+  color: #323330;
 }
 .NavbarLinks a::after{
-  background-color: #ffffff;
+  background-color: #323330;
   content: "";
   position: absolute;
   height: 3px;
@@ -297,13 +298,15 @@ b{
   padding-bottom: 40px;
 }
 .AboutText a{
-  color: #9067C6;
+  color: #f0db4f;
   text-decoration: underline;
   font-weight: bold;
 }
 
 .Avatar{
   width: 280px;
+  border-radius: 50%;
+  border: 10px;
 }
 
 @media(max-width:900px){
@@ -368,7 +371,7 @@ b{
   }
   .Avatar{
     width: 200px;
-    margin-bottom: 25px;
+     margin-bottom: 25px;
   }
 
   .SkillsHeading{

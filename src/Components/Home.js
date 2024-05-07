@@ -1,10 +1,13 @@
 import React from 'react';
 import Lottie from  "lottie-react";
 import SpaceBoy from "../LottieFiles/SpaceBoy.json";
+import code from "../LottieFiles/code.json";
 import Typed from "./Typed.js";
 import Tilt from 'react-parallax-tilt';
-import Avatar from '../images/Avatar.png';
-import {CiCoffeeCup} from "react-icons/ci";
+import Avatar from '../images/Avatar.jpeg';
+import {CiBurger, CiCoffeeBean, CiCoffeeCup, CiForkAndKnife, CiShop} from "react-icons/ci";
+import { MdOutlineDirectionsBike } from "react-icons/md";
+import Coder from '../LottieFiles/coder.json';
 
 const Home = () => {
   return (
@@ -19,7 +22,7 @@ const Home = () => {
 
         <Lottie 
           className="illustration" 
-          animationData={SpaceBoy} 
+          animationData={code} 
           loop={true} 
         />
         
@@ -29,18 +32,21 @@ const Home = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading'>Brief <b>introduction</b></h1>
           <p>
-            I love the process of changing a raw idea into a website or a product 
-            that impacts lives. 
-            I want to do work that challenges me as a developer & work that I can 
-            be proud of.<br /><br />
-            I am fluent in <b>C++</b> and know a bit of <b>Python</b> and am working on a few 
-            projects in the <b>MERN</b> stack.<br />
-            I plan to learn <b>Next.js</b>, <b>Three.js</b> and<b> Typescript</b> in the near future. <br /><br />
-            Also, I love <b>coffee</b> <CiCoffeeCup style={{scale:"1.5", rotate:"15deg"}}/>   
+          I find immense joy in transforming an initial concept into a website or application that has a meaningful impact on people's lives. I aspire to engage in projects that push my abilities as a developer, provide me opportunities to learn and allow me to take pride in my work. In short, I love a good challenge!
+          <br/><br />
+            I am fluent in <b>C++</b> and know a bit of <b>Python</b> <br />
+            I'm learning <b>JavaScript</b>, <b>React</b> and<b> MySQL</b> at the moment. <br /><br />
+            
+            Also, I love <b>cycling</b>  <MdOutlineDirectionsBike/>
+            
           </p>
         </div>
         <Tilt>
-          <img className='Avatar' src={Avatar} alt="" />
+             <Lottie 
+              className="illustration" 
+              animationData={Coder} 
+              loop={true} 
+            />
         </Tilt>
       </div>
     </div>
