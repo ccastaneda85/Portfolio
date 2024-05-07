@@ -2,7 +2,7 @@ import React from 'react';
 import Skills from './Skills.js';
 import Tilt from 'react-parallax-tilt';
 import Lottie from "lottie-react"
-import Coder from '../LottieFiles/coder.json';
+
 import Avatar from '../images/Avatar.jpeg';
 
 const About = () => {
@@ -24,11 +24,7 @@ const About = () => {
         <div>
           <Tilt>
             <img className='Avatar' src={Avatar} alt="" />
-              {/* <Lottie 
-              className="illustration" 
-              animationData={Coder} 
-              loop={true} 
-            /> */}
+           
           </Tilt>
         </div>
 
@@ -49,7 +45,7 @@ const About = () => {
         <Skills skill='Figma' />
         <Skills skill='Vercel' />
         <Skills skill='Npm' />
-        <Skills skill='Bootstrap'/>
+        {/* <Skills skill='Bootstrap'/> */}
         
       </div>
     </>

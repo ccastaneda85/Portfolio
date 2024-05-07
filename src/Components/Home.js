@@ -32,7 +32,7 @@ const Home = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading'>Brief <b>introduction</b></h1>
           <p>
-          I find immense joy in transforming an initial concept into a website or application that has a meaningful impact on people's lives. I aspire to engage in projects that push my abilities as a developer, provide me opportunities to learn and allow me to take pride in my work. In short, I love a good challenge!
+          I find great joy in transforming an initial concept into a website or application that has a meaningful impact on people's lives. I aspire to engage in projects that push my abilities as a developer, provide me opportunities to learn and allow me to take pride in my work. In short, I love a good challenge!
           <br/><br />
             I am fluent in <b>C++</b> and know a bit of <b>Python</b> <br />
             I'm learning <b>JavaScript</b>, <b>React</b> and<b> MySQL</b> at the moment. <br /><br />
